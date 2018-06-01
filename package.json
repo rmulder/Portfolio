@@ -1,0 +1,45 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Proffesional Protfolio for Lewis Foo",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack  --config webpack.config.js",
+    "start": "webpack-dev-server --open"
+  },
+  "author": "Lewis Foo",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.3.16",
+    "@types/react-dom": "^16.0.5",
+    "node": "^10.2.0",
+    "node-gyp": "^3.6.2",
+    "node-sass": "^4.9.0",
+    "npm": "^6.1.0",
+    "react": "^16.4.0",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.0.0",
+    "bitbar-webpack-progress-plugin": "^1.0.0",
+    "bootstrap": "^4.1.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^*",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "*",
+    "html-loader": "*",
+    "html-webpack-plugin": "*",
+    "jquery": "^3.3.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.14.3",
+    "react-dom": "^16.4.0",
+    "sass-loader": "*",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "*",
+    "ts-loader": "*",
+    "webpack": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
